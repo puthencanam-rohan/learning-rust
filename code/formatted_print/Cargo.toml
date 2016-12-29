@@ -1,0 +1,6 @@
+[package]
+name = "formatted-print"
+version = "0.1.0"
+authors = ["puthencanam-rohan <puthencanam.rohan@gmail.com>"]
+
+[dependencies]
