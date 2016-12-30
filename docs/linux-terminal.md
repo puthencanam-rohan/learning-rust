@@ -27,3 +27,6 @@ Common switches or options are:
 
 ## Make directory
 `mkdir directory`
+
+## What kind of file is a file?
+`file filename`
