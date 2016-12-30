@@ -3,8 +3,8 @@ Use these commands for common tasks on linux machines
 
 ## Create a new file
 Several methods exist
-`vim file`
-`cat > file` then type commands and press Ctrl+D to finish. Certain keys like `Bkspce` will not work.
+* `vim file`
+* `cat > file` then type commands and press Ctrl+D to finish. Certain keys like `Bkspce` will not work.
 
 ## Move a file
 mv file1 file2
@@ -19,8 +19,8 @@ Common switches or options are:
 `ls -ltrh` is a common invocation
 
 ## Delete file
-`rm file`
-`rm -rf directory` to delete a directory and all of its contents. !Use very carefully!
+* `rm file`
+* `rm -rf directory` to delete a directory and all of its contents. !Use very carefully!
 
 ## Change directory
 `cd directory`
