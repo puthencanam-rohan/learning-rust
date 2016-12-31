@@ -21,8 +21,13 @@ fn main() -> () {
         io::stdin().read_line(&mut guess)
             .expect("Failed to read line");
 
-        let guess: u32 = guess.trim().parse()
-            .expect("Please type a number!");
+        // Using match: if the number can be converted from string to number, guess = num; otherwise begin
+        // another iteration.
+        // parse() returns a Result which is an enum: Has Ok and Err.
+        let guess: u32 = match guess.trim().parse() {
+            Ok(val)     => val,
+            Err(_)      => continue,
+        };
 
         println!("You guessed: {}", guess);
 
