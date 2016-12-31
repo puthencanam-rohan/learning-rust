@@ -1,0 +1,8 @@
+[package]
+name = "rusty-machine-x-validate"
+version = "0.1.0"
+authors = ["puthencanam-rohan <puthencanam.rohan@gmail.com>"]
+
+[dependencies]
+rusty-machine = "0.5.3"
+
